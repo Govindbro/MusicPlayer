@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Kaushan+Script&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: "Jost", sans-serif;
+  background-image: url(cover.webp);
+  background-size: cover;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: #000;
+  height: 65px;
+  color: white;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  display: flex;
+  font-family: "Kaushan Script", cursive;
+  align-items: center;
+}
+
+.logo img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+.container {
+  min-height: 72vh;
+  background-color: #000;
+  color: white;
+  display: flex;
+  margin: 13px auto;
+  width: 70%;
+  padding: 34px;
+  border-radius: 12px;
+  background-image: url(background.gif);
+  background-image: url(back2.gif);
+  background-size: cover;
+}
+
+.banner {
+  background-image: url(back3.gif);
+  background-size: cover;
+  width: 40%;
+  float: right;
+  border-radius: 2rem;
+}
+
+.songlist {
+  width: 50%;
+  padding-right: 10rem;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: #000;
+  margin: 5px 0;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.songItem:hover {
+  transform: scale(1.1);
+}
+
+.songItem img {
+  width: 43px;
+  border-radius: 2rem;
+  margin: 0 13px;
+}
+
+.songlistplay {
+  margin: 0 23px;
+}
+
+.songlistplay i {
+  cursor: pointer;
+}
+
+.bottom {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 130px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.icons {
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+  font-size: 25px;
+}
+
+#myProgress {
+  width: 80vw;
+}
+
+.songInfo img {
+  width: 50px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+.songInfo {
+  position: absolute;
+  left: 9.5vw;
+  font-family: "Kaushan Script", cursive;
+}/*# sourceMappingURL=style.css.map */

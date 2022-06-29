@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" ></link>
+    <!-- adding font awsome kit  -->
+    <script src="https://kit.fontawesome.com/9ec129f70a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best of my list by gokuu</h1>
+            <div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id='1' class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id='2' class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id='3' class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id="4" class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id='5' class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id='6' class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id='7' class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id='8' class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id='9' class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span  class="songname">Let me Love You</span>
+                    <span class="songlistplay">3:45 <i id='10' class="fas songItemPlay  fa-play-circle"></i></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" value="0" id="myProgress" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fas songItemPlay  fa-step-backward"></i>
+            <i id="play" class="fas fa-play-circle"></i>
+            <i id="next" class="fas songItemPlay  fa-step-forward"></i>
+        </div>
+        <!-- font awsome icons  -->
+        <div class="songInfo">
+            <img id="songGif" src="playing.gif"><span  id="mastersongName"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
